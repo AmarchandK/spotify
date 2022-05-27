@@ -1,0 +1,84 @@
+.icon{
+    width: 132px;
+    height: 42px;
+}
+
+.img-fluid{
+    width: 26.5em;
+    height: 29.25em;
+}
+.element.style{
+    max-width: 19rem;
+    max-height: 82rem;
+}
+.container1{
+    width: 100%;
+    height: auto;
+    background-color: #993399;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    background-color:  #2941ab;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 0px){
+    .container2 {
+ 
+    background-image: url("1st bag.svg");
+    background-position: center center;
+    background-size: auto 181%;
+    background-repeat: no-repeat;
+}
+}
+
+@media (min-width: 768px){
+    .container2 {
+ 
+    background-image: url("baground.svg");
+    background-position: center center;
+    background-size: auto 181%;
+    background-repeat: no-repeat;
+}
+}
+@media (min-width: 1200px)
+{
+.container2 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url("baground.svg");
+    background-position: right center;
+}
+}
+@media (min-width: 1200px)
+{
+.container2 {
+    padding: 64px 0px;
+    align-items: flex-start;
+}
+}
+.listen{
+    text-align: center;
+    
+}  
+.buttongreen{
+    border-radius: 2.5rem;
+    background-color: #1fd65f !important;
+
+}
+.btn:hover{
+transform: scale(1.1);
+transition: 0.5s;
+}
+.nav-item:hover{
+    color: #1fd65f;
+}
+.hover ul li a:hover{
+    color: #1fd65f !important;
+    text-decoration: none;
+}

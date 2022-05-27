@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listening is everything - Spotify</title>
+    <link rel="icon" href="/responosive spotify/title logo.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+                <a class="navbar-brand" href="https://www.spotify.com/in-en/"><img class="icon" src="spotify.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse text-white navbar-collapse hover" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active ">
+                         <a class="nav-link text-white font-weight-bold " id="pre" href="#">Premium <span
+                               class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white font-weight-bold"  onclick="display()" href="#">Support</a>
+                        </li>
+                        <li class="nav-item mh-header-primary-hover">
+                            <a class="nav-link text-white font-weight-bold" href="#">Download</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white font-weight-bold" href="#">|</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://www.spotify.com/in-en/account/overview/"><svg style="fill: white;" xmlns="http://www.w3.org/2000/svg" width="18" height="30"  class="bi bi-person-circle mt-1  " viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg></a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white font-weight-bold dropdown-toggle" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Profile
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Account</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Log-out</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--Container1-->
+    <div class="container1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="first text-white">
+                        <h6 class="text-uppercase  font-weight-bold pt-5">spotify premium</h6>
+                        <h1 class=" font-weight-bold pt-4">Get 3 months of premium for free</h1>
+                        <h4 class="pt-3">Enjoy ad-free music listening, offline playback, and more.</h4>
+                        <h6>cancel anytime.</h6>
+                        <div class="btn btn-rounded-pill d-flex flex-column ">
+                            <a style="text-decoration:none"; 
+                            href="https://spotify.com/in-en/purchase/premium?_gl=1*mgtgr2*_gcl_aw*R0NMLjE2NTMzODk3NDIuQ2owS0NRandoTEtVQmhEaUFSSXNBTWFUTG5GY0g3N3pUaWQ3OFljZjlES1NWakRrZml2ODF5eHJJT2NVZllhN0NVa2I4clJXb0REeGxnTWFBamxuRUFMd193Y0I.*_gcl_dc*R0NMLjE2NTMzODk3NDIuQ2owS0NRandoTEtVQmhEaUFSSXNBTWFUTG5GY0g3N3pUaWQ3OFljZjlES1NWakRrZml2ODF5eHJJT2NVZllhN0NVa2I4clJXb0REeGxnTWFBamxuRUFMd193Y0I." 
+                            class="btn text-start btn-rounded-pill text-uppercase buttongreen text-decoration-none" 
+                            style="border-radius: 2.5rem  !important ;" onclick="changeLook()">Get 3 months free</a>
+                        </div>
+                        <p flex-wrap>Individual plan only ₹119/month.Terms and conditions apply.Open only to users who haven't
+                            tried Premium</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="img w-100 h-75  mt-5 text-center" src="spotify-image.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--container2-->
+    <div class="container2">
+        <div class="container">
+            <div class="listen " style="min-height:35em; color: #1fd65f">
+                <article class="article1 ">
+                    <div class="part1 col-12 col-xl-6 ">
+                        <p style="font-size: smaller;" class="text1 font-weight-bold pt-5">SPOTIFY FREE</p>
+                        <h1 class="text2 font-weight-bold">Listening is everything</h1>
+                        <br><br>
+                        <div class="subheader">
+                            <h2 class="text3">Millions of songs and podcasts. No credit card needed.</h2>
+                        </div>
+                            <a href="https://open.spotify.com/browse?_gl=1*o7tsb7*_gcl_aw*R0NMLjE2NTMzODk3NDIuQ2owS0NRandoTEtVQmhEaUFSSXNBTWFUTG5GY0g3N3pUaWQ3OFljZjlES1NWakRrZml2ODF5eHJJT2NVZllhN0NVa2I4clJXb0REeGxnTWFBamxuRUFMd193Y0I.*_gcl_dc*R0NMLjE2NTMzODk3NDIuQ2owS0NRandoTEtVQmhEaUFSSXNBTWFUTG5GY0g3N3pUaWQ3OFljZjlES1NWakRrZml2ODF5eHJJT2NVZllhN0NVa2I4clJXb0REeGxnTWFBamxuRUFMd193Y0I." class="btn p-3 text-start btn-rounded-pill text-uppercase buttongreen font-weight-bold" onclick="changeLook()">open web player</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="container-fluid bg-dark hover">
+        <div class="container">
+            <footer class=" text-center text-lg-start">
+                <!-- Grid container -->
+                <div class="container p-4">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                           <a href="https://www.spotify.com/in-en/"> <img  class="icon" src="Spotify_Logo_RGB_White.png" alt=""></a>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-dark"></a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark"></a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark"></a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-dark"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-0  " style="color: #919496;">company</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!" class="text-white">About</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Jobs</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">For the Record</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase " style="color:#919496; ">Communities</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">For Artists</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Developers</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Advertising</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Investors</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Vendors</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6  mb-md-0">
+                            <h5 class="text-uppercase " style="color: #919496;">usefull links</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a  href="#!" class=" b text-white">support</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">web player</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">free mobile App</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="d-flex justify-content-start p-3">
+                  <td class="fs-6">Legal</td>
+                  <td>Privacy Centre</td>
+                  <td>Privacy Policy</td>
+                  <td>Cookies</td>
+                  <td>About Ads</td>
+                </div>
+                <!-- Copyright -->
+            </footer>
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready(function(){
+    $("#pre").click(function(){
+        alert("please sign up")
+    })
+})
+
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
